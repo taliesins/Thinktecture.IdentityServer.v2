@@ -1,6 +1,5 @@
 bin/
 obj/
-packages/
 build/
 
 !NuGet.exe
