@@ -1216,6 +1216,13 @@
     <Content Include="Areas\Admin\Views\OpenIdConnectClient\Edit.cshtml" />
     <Content Include="Areas\Admin\Views\OpenIdConnectClient\Index.cshtml" />
     <Content Include="Scripts\jquery-1.8.2.js" />
+    <Content Include="Configuration\membership.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Configuration\riakConfig.config" />
+    <Content Include="Configuration\roleManager.config" />
+    <Content Include="Configuration\sessionState.config" />
+    <None Include="Properties\PublishProfiles\Site.pubxml" />
     <None Include="Scripts\jquery-2.0.3.intellisense.js" />
     <Content Include="Scripts\jquery-2.0.3.js" />
     <Content Include="Scripts\jquery-2.0.3.min.js" />
