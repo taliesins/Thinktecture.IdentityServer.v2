@@ -12,6 +12,5 @@ Release/
 *.ldf
 _ReSharper.*
 *.resharper
-PublishProfiles
 *.DS_Store
 *.DotSettings.user
