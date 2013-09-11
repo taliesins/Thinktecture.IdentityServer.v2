@@ -52,8 +52,9 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\..\packages\BrockAllen.OAuth2.2.2.0\lib\net45\BrockAllen.OAuth2.dll</HintPath>
     </Reference>
-    <Reference Include="CorrugatedIron">
-      <HintPath>..\..\..\packages\CorrugatedIron.1.4.1.14\lib\net45\CorrugatedIron.dll</HintPath>
+    <Reference Include="CorrugatedIron, Version=1.4.1.19, Culture=neutral, PublicKeyToken=fb1ec7de601674df, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\packages\CorrugatedIron.1.4.1.19\lib\net45\CorrugatedIron.dll</HintPath>
     </Reference>
     <Reference Include="EntityFramework">
       <HintPath>..\..\..\packages\EntityFramework.6.0.0-rc1\lib\net45\EntityFramework.dll</HintPath>
@@ -69,8 +70,9 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\..\packages\Newtonsoft.Json.5.0.6\lib\net45\Newtonsoft.Json.dll</HintPath>
     </Reference>
-    <Reference Include="protobuf-net">
-      <HintPath>..\..\..\packages\protobuf-net.2.0.0.664\lib\net40\protobuf-net.dll</HintPath>
+    <Reference Include="protobuf-net, Version=2.0.0.666, Culture=neutral, PublicKeyToken=257b51d87d2e4d67, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\packages\protobuf-net.2.0.0.666\lib\net40\protobuf-net.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.Composition" />
@@ -159,8 +161,9 @@
       <Private>True</Private>
       <HintPath>..\..\..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
     </Reference>
-    <Reference Include="Talifun.Riak.Providers">
-      <HintPath>..\..\..\packages\Talifun.RiakProvider.1.0.0.2\lib\net45\Talifun.Riak.Providers.dll</HintPath>
+    <Reference Include="Talifun.Riak.Providers, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\packages\Talifun.RiakProvider.1.0.0.5\lib\net45\Talifun.Riak.Providers.dll</HintPath>
     </Reference>
     <Reference Include="Thinktecture.IdentityModel, Version=3.4.6.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
