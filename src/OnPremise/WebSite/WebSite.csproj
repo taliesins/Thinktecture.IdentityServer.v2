@@ -1163,6 +1163,7 @@
     <Content Include="Content\themes\base\minified\jquery.ui.tabs.min.css" />
     <Content Include="Content\themes\base\minified\jquery.ui.theme.min.css" />
     <Content Include="Content\themes\base\minified\jquery.ui.tooltip.min.css" />
+    <Content Include="Deployment\configuration.xml" />
     <Content Include="Global.asax" />
     <Content Include="Configuration\connectionStrings.config">
       <SubType>Designer</SubType>
@@ -1225,6 +1226,19 @@
     <Content Include="Configuration\riakConfig.config" />
     <Content Include="Configuration\roleManager.config" />
     <Content Include="Configuration\sessionState.config" />
+    <Content Include="Deployment\PowershellModules\WebInstallation.psm1" />
+    <Content Include="Deployment\PowershellModules\ServiceInstallation.psm1" />
+    <Content Include="Deployment\PowershellModules\Installation.psm1" />
+    <Content Include="Deployment\PowershellModules\CommonDeploy.psm1" />
+    <Content Include="Deployment\deployment_configuration.json" />
+    <Content Include="Deployment\install.ps1" />
+    <Content Include="Deployment\PowershellModules\configuration.xsd">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Deployment\start.ps1" />
+    <Content Include="Deployment\stop.ps1" />
+    <Content Include="Deployment\uninstall.ps1" />
+    <Content Include="Deployment\UpdateConfiguration.ps1" />
     <None Include="Properties\PublishProfiles\Package.pubxml" />
     <None Include="Scripts\jquery-2.0.3.intellisense.js" />
     <Content Include="Scripts\jquery-2.0.3.js" />

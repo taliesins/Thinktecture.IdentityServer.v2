@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="PowershellModules/configuration.xsd" componentName="WebSite">
+  <sites>
+    <site containerOnly="false" name="Thinktecture.IdentityServer" path=".">
+      <appPool enable32Bit="false" frameworkVersion="v4.0" name="Thinktecture.IdentityServer" managedPipelineMode="Integrated">
+        <properties>
+          <property path="processModel.loadUserProfile" value="false" />
+          <property path="processModel.IdleTimeout" value="0:20:0" />
+          <property path="recycling.periodicRestart.time" value="0" />
+        </properties>
+      </appPool>
+      <bindings>
+        <binding protocol="https" information="{FrontEnd.HostHeader}:443:">
+          <ssl thumbprint="{FrontEnd.HttpsCertificateThumbprint}"/>
+        </binding>
+      </bindings>
+    </site>
+  </sites>
+</configuration>

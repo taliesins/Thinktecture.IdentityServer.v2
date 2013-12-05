@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>Powershell.Deployment</id>
+    <version>1.0.0.1</version>
+    <title>Powershell Deployment modules for Visual Studio</title>
+    <authors>Stanislaw Wozniak &amp; Taliesin Sisson</authors>
+    <owners>Stanislaw Wozniak &amp; Taliesin Sisson</owners>
+    <projectUrl>https://github.com/sponte/Powershell.Deployment</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Powershell scripts that automated component deployment. Supports windows services (srvany.exe, NServiceBus, TopShelf) and websites.</description>
+    <releaseNotes />
+    <copyright />
+    <language />
+    <tags>powershell deployment mvc nservicebus topshelf</tags>
+  </metadata>
+</package>

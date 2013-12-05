@@ -1,0 +1,25 @@
+{
+	"Tracing" : {
+		"LogPath" : "C:\etc\temp\tracing\identityServer"
+	}
+    
+    "Riak": {
+		"HostAddress: "riak.pricelist.io"
+	}
+
+	"FrontEnd": {
+		"HostHeader": "ip.pricelist.io",
+		"HttpsCertificateThumbprint" : ""
+	}
+
+	"Certificates" : [
+		{
+			"Name":"HttpsCertificate",
+			"Certificate" : ""
+		},
+		{
+			"Name":"TokenCertificate",
+			"Certificate" : ""
+		},
+	]
+}
