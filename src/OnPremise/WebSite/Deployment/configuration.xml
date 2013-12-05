@@ -4,7 +4,7 @@
     <site containerOnly="false" name="Thinktecture.IdentityServer" path=".">
       <appPool enable32Bit="false" frameworkVersion="v4.0" name="Thinktecture.IdentityServer" managedPipelineMode="Integrated">
         <properties>
-          <property path="processModel.loadUserProfile" value="false" />
+          <property path="processModel.loadUserProfile" value="true" />
           <property path="processModel.IdleTimeout" value="0:20:0" />
           <property path="recycling.periodicRestart.time" value="0" />
         </properties>

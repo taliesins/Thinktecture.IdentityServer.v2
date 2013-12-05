@@ -15,11 +15,13 @@
 	"Certificates" : [
 		{
 			"Name":"HttpsCertificate",
-			"Certificate" : ""
+			"Certificate" : "",
+			"Password" : ""
 		},
 		{
 			"Name":"TokenCertificate",
-			"Certificate" : ""
+			"Certificate" : "",
+			"Password" : ""
 		},
 	]
 }
